@@ -1,2 +1,5 @@
-build/
 .vscode
+build
+node-modules
+package
+package-lock
