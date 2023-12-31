@@ -7,7 +7,7 @@ type NewToken = {
 }
 
 type XpReturn = {
-    Code: "Success" | "NotSetup" | "Failed",
+    Code: "Success",
     OldAmount: number,
     NewAmount: number,
 }

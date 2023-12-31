@@ -26,7 +26,7 @@ type NewToken = {
 }
 
 type XpReturn = {
-	Code: "Success" | "NotSetup" | "Failed",
+	Code: "Success",
 	OldAmount: number,
 	NewAmount: number,
 }
@@ -196,7 +196,6 @@ type APIpoints = {
 ]=]
 
 local HttpService = game:GetService("HttpService")
-local Players = game:GetService("Players")
 
 local Tokens = {}
 
